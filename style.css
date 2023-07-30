@@ -20,12 +20,15 @@ body{
 .page-action{
     margin: 0.5rem;
     color: #f1f2f6;
-    
+
 }
 
 .cellprop-action-cont{
     height: 3rem;
     background: lightsalmon;
+    display: flex;
+    align-items: center;
+    padding-left: 0.5rem;
 }
 
 .cellprop-action-cont *{
@@ -40,10 +43,10 @@ body{
 
 .sheet-cont{
     height: 3rem;
-    /* background: lightcoral; */
+    background: lightcoral;
 }
 
 .grid-cont{
     height: calc( 100vh - 3rem - 3rem - 3rem - 3rem);
-    
+
 }
